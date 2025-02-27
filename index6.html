@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      #tab{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+
+      }
+      button{
+        padding: 10px;
+        border-radius: 10px;
+        background-color:#ff0080;
+       
+      }
+
+      button:hover{
+        background-color: #ff5500;
+        transition-delay: 0s;
+      }
+
+      p{
+       margin: 0 auto;
+        display: none;
+        width: 50%;
+         height: 50%;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div id="tab">
+      <button id="Nietzsche">Nietzsche</button>
+
+      <button id="Hegel">Hegel</button>
+
+      <button id="Camus">Camus</button>
+    </div>
+
+    <p id="Nietzsche-text">
+      Friedrich Nietzsche was a German philosopher known for his radical ideas
+      about morality, power, and the human will. He famously declared that "God
+      is dead," arguing that traditional values were losing their meaning in
+      modern society. His concepts of the Übermensch (Superman) and eternal
+      recurrence challenge individuals to create their own purpose and live
+      boldly. His work has influenced existentialism, psychology, and postmodern
+      thought.
+    </p>
+    <br>
+    <p id="Hegel-text">
+      Georg Wilhelm Friedrich Hegel was a German philosopher who developed the
+      idea of dialectics—where progress happens through contradictions being
+      resolved. His philosophy emphasized that history unfolds through a process
+      of thesis, antithesis, and synthesis. Hegel also saw reality as deeply
+      connected, believing that everything is part of an evolving whole. His
+      ideas shaped modern political theory, existentialism, and even Marxism.
+    </p>
+    <br>
+    <p id="Camus-text">
+      Albert Camus was a French philosopher and writer known for his philosophy
+      of absurdism. He believed that life has no inherent meaning, but instead
+      of despairing, we should embrace the absurd and live with passion. His
+      famous works, such as The Stranger and The Myth of Sisyphus, explore
+      themes of existential crisis and personal freedom. Camus rejected nihilism
+      and instead encouraged finding joy in the simple act of living.
+    </p>
+
+    <script src="script6.js"></script>
+  </body>
+</html>
