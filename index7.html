@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #downloadBar{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width:300px;
+        height:15px;
+        background-color:aliceblue;
+        border-radius: 50px;
+    }
+
+    #progressbar{
+        transition: cubic-bezier(0.19, 1, 0.22, 1).3s;
+        width: 10%;
+        height: 100%;
+        background-color: rgb(165, 249, 39);
+        border-radius: 50px
+        ;
+    }
+
+    h4{
+        width :200px;
+        height:100px;
+        margin-top: 10px;
+        opacity: 0;
+        
+    }
+
+    
+</style>
+<body>
+    <div id="center">
+
+        
+
+        <div id="downloadBar">
+       
+
+        <div id="progressbar">
+ 
+        </div>
+        <span><h4>Download Complete...</h4></span>
+    
+    </div>
+
+   
+    </div>
+
+    <script src="script7.js"></script>
+</body>
+</html>
