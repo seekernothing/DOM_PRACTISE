@@ -14,7 +14,7 @@ kuchBhiLikho.preventDefault();
 for( let i=0;i<inputs.length;i++){   //Ham idhar for isliye laga sakte hain kuy ki , Jab inputs ko console.log karenge tab wo array jaise ek node list dega 
     if(inputs[i].value.trim()===""){
         h2.textContent="Please complete all the fields"
-        h2.style.color="red"
+        h2.style.color = "#ff0094";
         break;
     }
 }

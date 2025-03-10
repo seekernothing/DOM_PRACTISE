@@ -10,4 +10,4 @@ if(count===100){
 }
 pgb.style.width = count + "%";
 count++
-},80)
+},50)
