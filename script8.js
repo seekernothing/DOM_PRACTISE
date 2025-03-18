@@ -38,6 +38,30 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Gyomei",
       src: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/gyomei-himejima-the-demon-slayer-corps.jpg",
     },
+    {
+      name: "Mitsuri",
+      src: "https://i.pinimg.com/736x/b1/7b/6a/b17b6adaf77cec49cdf9bf6cd26bd298.jpg",
+    },
+    {
+      name: "Giyu",
+      src: "https://preview.redd.it/whats-your-favourite-thing-about-giyu-tomioka-v0-m5burkjiysab1.jpg?auto=webp&s=b72e54720c815d8512661ea41a246cecdce531fb",
+    },
+    {
+      name: "Obanai",
+      src: "https://i.pinimg.com/736x/26/12/f1/2612f1ed0b3d241c2a278e51073fcd2d.jpg",
+    },
+    {
+      name: "Sanemi",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1kaF_Optl3GCDox2FtdqPBnUL1CRe4Cl5MA&s",
+    },
+    {
+      name: "Kanao",
+      src: "https://i.redd.it/kanao-tysuri-this-is-kanao-in-a-a-u-where-she-is-a-flower-v0-stky4ak2v1ib1.jpg?width=968&format=pjpg&auto=webp&s=387a30948f840665e01ce0a133bb132e4794f073",
+    },
+    {
+      name: "Yorichi",
+      src: "https://imagedelivery.net/LBWXYQ-XnKSYxbZ-NuYGqQ/e22749fa-839b-4d11-e77a-310a21b3f200/avatarhd",
+    },
   ];
   let pers = "";
   data.forEach(function (element) {
